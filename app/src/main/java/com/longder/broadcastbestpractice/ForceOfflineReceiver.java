@@ -22,7 +22,7 @@ public class ForceOfflineReceiver extends BroadcastReceiver {
         dialogBuilder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                //销毁所有活动
+                //销毁所有活动啊
                 ActivityController.finishAll();
                 //重新启动LoginActivity
                 Intent intent = new Intent(context, LoginActivity.class);

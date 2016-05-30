@@ -25,9 +25,11 @@
         <EditText
             android:id="@+id/password"
             android:layout_height="wrap_content"
+            android:hint="请输入密码"
             android:inputType="textPassword" />
     </TableRow>
 
+    <!--记住密码选项-->
     <TableRow>
 
         <CheckBox
